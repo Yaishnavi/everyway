@@ -1,0 +1,51 @@
+{
+  "lesson": "The water cycle",
+  "learners": [
+    {
+      "id": "maya",
+      "profile": "Maya, age 8, loves dinosaurs, learns best from stories",
+      "image_model": "Anime",
+      "negative": "nsfw, lowres, bad anatomy, bad hands, text, error, worst quality, low quality, jpeg artifacts, signature, watermark, blurry",
+      "shots": [
+        {"id": "s1_presenter", "narration": "Hi Maya! Did you know the rain that fell on the dinosaurs is the same water we drink today? Let's follow one drop.",
+         "image": "masterpiece, best quality, very aesthetic, 1woman, adult, friendly science teacher, explorer outfit, khaki vest, short brown hair, warm smile, looking at viewer, upper body, facing camera, lush prehistoric jungle background, giant ferns, soft morning light, anime style",
+         "motion": "the woman smiles and talks to the camera, gentle head movement, leaves sway softly behind her"},
+        {"id": "s2_evaporation", "narration": "First, the sun warms the lake. Tiny bits of water float up into the air. That is called evaporation.",
+         "image": "masterpiece, best quality, very aesthetic, scenery, prehistoric lake at sunrise, bright sun, mist rising from the water, a small cute green baby dinosaur standing at the shore looking up, giant ferns, warm golden light, wide shot, anime style, no humans",
+         "motion": "mist rises slowly from the lake toward the sun, the baby dinosaur tilts its head up, gentle ripples on the water"},
+        {"id": "s3_condensation", "narration": "High up it gets cold, so the water crowds together and makes clouds. That is condensation.",
+         "image": "masterpiece, best quality, very aesthetic, scenery, huge fluffy white clouds gathering above a jungle valley and a distant volcano, pterosaurs gliding, blue sky, wide shot, anime style, no humans",
+         "motion": "clouds grow and drift together, pterosaurs glide slowly across the sky"},
+        {"id": "s4_precipitation", "narration": "When the clouds get too heavy, the water falls back down as rain. That is precipitation.",
+         "image": "masterpiece, best quality, very aesthetic, scenery, rain falling on a jungle clearing, a happy long-necked dinosaur with raindrops on its head, grey clouds, big green leaves dripping, anime style, no humans",
+         "motion": "rain falls steadily, the dinosaur lifts its head into the rain, water drips from the leaves"},
+        {"id": "s5_collection", "narration": "The rain runs into rivers and back to the lake, ready to go around again. That is the water cycle, Maya!",
+         "image": "masterpiece, best quality, very aesthetic, scenery, a sparkling river winding through a prehistoric jungle into a wide blue lake, rainbow in the sky after rain, dinosaurs drinking at the shore, wide shot, anime style, no humans",
+         "motion": "the river flows toward the lake, sunlight sparkles on the water, slow camera push in"}
+      ]
+    },
+    {
+      "id": "leo",
+      "profile": "Leo, age 15, into skateboarding, wants it fast and real",
+      "image_model": "Realistic",
+      "negative": "cartoon, anime, illustration, lowres, blurry, deformed, bad anatomy, extra fingers, text, watermark, logo, oversaturated",
+      "shots": [
+        {"id": "s1_presenter", "narration": "Leo. Quick one. Ever wonder why the bowl is dry an hour after it rains? That is the water cycle, and it never stops.",
+         "image": "cinematic photo of a man in his late twenties, skate coach, beanie, grey hoodie, friendly confident look, looking at the camera, upper body, facing camera, concrete skatepark behind him, golden hour, shallow depth of field, 35mm film look",
+         "motion": "the man talks to the camera with small natural head movements, soft handheld camera feel"},
+        {"id": "s2_evaporation", "narration": "Sun hits the wet concrete. The water turns to vapor and lifts off. Evaporation.",
+         "image": "cinematic photo, empty concrete skate bowl just after rain, bright low sun breaking through, thin steam rising from the wet concrete, puddles reflecting the sky, wide angle, 35mm film look, no people",
+         "motion": "steam rises from the wet concrete in the sunlight, puddles shimmer, slow camera push in"},
+        {"id": "s3_condensation", "narration": "Up high it cools down and packs together into clouds. Condensation.",
+         "image": "cinematic photo, towering storm clouds building over a city skyline at late afternoon, dramatic light, wide shot from a rooftop, 35mm film look, no people",
+         "motion": "time lapse feel, clouds billow and grow over the skyline"},
+        {"id": "s4_precipitation", "narration": "Clouds get heavy, and it all comes back down. Precipitation.",
+         "image": "cinematic photo, heavy rain hitting an empty concrete skatepark, a skateboard lying on the ground, splashes on the concrete, moody grey light, low angle close shot, 35mm film look, no people",
+         "motion": "heavy rain falls and splashes on the concrete, water streams past the skateboard"},
+        {"id": "s5_collection", "narration": "It drains to the river, the river runs to the sea, and the sun starts it again. Same water, every time.",
+         "image": "cinematic photo, rainwater flowing along a city street gutter toward a storm drain, a wide river and a bridge in the background at sunset, wet asphalt reflections, 35mm film look, no people",
+         "motion": "water flows along the gutter into the drain, light flickers on the wet street, slow camera tilt up to the river"}
+      ]
+    }
+  ]
+}
