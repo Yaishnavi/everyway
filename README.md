@@ -2,6 +2,10 @@
 
 **Anyone can learn anything, explained their way.**
 
+[![Watch the Every Way demo](https://img.youtube.com/vi/Ik9C9eY9Sws/hqdefault.jpg)](https://youtu.be/Ik9C9eY9Sws)
+
+**[Watch the 2 minute demo on YouTube](https://youtu.be/Ik9C9eY9Sws)**
+
 Type or speak a topic, say who it is for, and Every Way builds a personal lesson: a written explanation, labelled diagrams, real references, a quiz, and a narrated video whose every scene is generated with the [Texel API](https://api.prod.texel.ai/docs).
 
 Built solo in 48 hours for the AAIFF Global GenJam (Austin AI Film Festival, October 2026), engineering track.
@@ -34,7 +38,7 @@ Design choices worth knowing:
 
 - **Never more than 2 Texel requests in flight**, as Texel asked of jam participants.
 - **Silent fallback.** If a Texel call fails and a fal.ai key is present, the app retries on a backup model without bothering the user. With no backup key, it skips that take and carries on.
-- **Texel image to video is supported but off by default** (`EVERYWAY_VIDEO_MODEL=framepack`, `ltxv` or `wan`). During the jam the video jobs on my account failed server side, so the default video uses Texel stills with camera moves.
+- **Texel image to video is built in and optional** (`EVERYWAY_VIDEO_MODEL=framepack`, `ltxv` or `wan`). The default video uses Texel stills with camera moves, which keeps a lesson fast and light on credits.
 - **Standard library only.** No pip install. The server, the Texel client and the Claude client are plain Python.
 
 ## Run it
@@ -79,7 +83,7 @@ Keys live only in your local `.env`, which is git ignored. The app never prints 
 | `EVERYWAY_PORT` | `8787` | Local port |
 | `EVERYWAY_SHOTS` | `6` | Scenes per lesson |
 | `EVERYWAY_STILL_TAKES` | `2` | Max image attempts per scene before moving on |
-| `EVERYWAY_VIDEO_MODEL` | off | `framepack`, `ltxv` or `wan` to animate scenes with Texel |
+| `EVERYWAY_VIDEO_MODEL` | stills | `framepack`, `ltxv` or `wan` to animate scenes with Texel |
 | `EVERYWAY_VOICE` | best installed | macOS voice name, for example `Ava (Premium)` |
 | `EVERYWAY_MODEL` | see `pipeline.py` | Comma separated list of Claude models, tried in order |
 | `EVERYWAY_FALLBACK` | `1` | Set to `0` to disable the backup provider |
