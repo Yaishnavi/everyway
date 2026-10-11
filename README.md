@@ -2,9 +2,9 @@
 
 **Anyone can learn anything, explained their way.**
 
-[![Watch the Every Way demo](https://img.youtube.com/vi/Ik9C9eY9Sws/hqdefault.jpg)](https://youtu.be/Ik9C9eY9Sws)
+[![Watch the Every Way demo](https://img.youtube.com/vi/xsiELQG7lIM/hqdefault.jpg)](https://youtu.be/xsiELQG7lIM)
 
-**[Watch the 2 minute demo on YouTube](https://youtu.be/Ik9C9eY9Sws)**
+**[Watch the 2 minute demo on YouTube](https://youtu.be/xsiELQG7lIM)**
 
 Type or speak a topic, say who it is for, and Every Way builds a personal lesson: a written explanation, labelled diagrams, real references, a quiz, and a narrated video whose every scene is generated with the [Texel API](https://api.prod.texel.ai/docs).
 
